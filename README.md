@@ -15,9 +15,3 @@ Latent Probe is a resource-efficient machine learning pipeline that identifies n
 * **Joblib**: Serialization library used for persisting and loading model and scaler artifacts.
 * **PyTorch & Transformers**: Frameworks handling tensor manipulation, masked mean pooling, and tokenization.
 * **Scikit-Learn**: Library providing feature scaling (`StandardScaler`) and evaluation metrics.
-
-## Repository File Structure
-
-* **`pipeline.ipynb`**: The complete end-to-end Python/Colab notebook containing text preprocessing, mini-batch feature extraction, model evaluation, and inference logic.
-* **`stress_svc_probe.joblib`**: The serialized Support Vector Classifier model file storing the trained decision boundary weights.
-* **`feature_scaler.joblib`**: The serialized Scikit-Learn `StandardScaler` artifact ensuring consistent normalization of embedding features during testing and inference.
